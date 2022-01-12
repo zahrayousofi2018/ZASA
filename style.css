@@ -17,3 +17,21 @@
     color:white;
     padding: 150px;
 }
+
+.footer {
+
+    background-color:black;
+    color: white;
+    padding: 150px;
+    
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black ;
+    color: white;
+}
