@@ -1,7 +1,30 @@
-.taco__images {
-    background: url("./Images/tacos.jpeg");
-  font-family: Avenir;
-  padding: 400px 0;
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.slider {
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, lightpink, yellow);
+    z-index: -1;
+}
+
+nav {
+    display: grid;
+    grid-template-columns:10%, 1fr, 1fr, 10%;
+    min-height: 10vh;
+}
+
+
+.hero img{
+  /* background: url("./Images/tacos.jpeg");
+  /* font-family: Avenir;
+  padding: 40px 0;
   background-size: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,7 +32,47 @@
   filter: alpha(opacity=50);
   margin-bottom: 24px;
   margin: auto;
-  height: auto;
+  height: auto; */ 
+   
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+
+}
+
+.hero {
+    height: 60%;
+    width:100%;
+    position: relative;
+
+}
+
+section {
+   display: flex;
+   height: 80vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero::after{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: -0.2;
+}
+
+.headline {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 80px;
+    transform: translate(-20%, -70%);
+    color: white;
+    z-index:3;
 }
 
 .subscribe {
@@ -23,13 +86,11 @@
     background-color:black;
     color: white;
     padding: 150px;
-    
-
 }
 
 .nav {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: black ;
