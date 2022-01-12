@@ -1,0 +1,19 @@
+.taco__images {
+    background: url("./Images/tacos.jpeg");
+  font-family: Avenir;
+  padding: 400px 0;
+  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  filter: alpha(opacity=50);
+  margin-bottom: 24px;
+  margin: auto;
+  height: auto;
+}
+
+.subscribe {
+    background-color: darkred;
+    color:white;
+    padding: 150px;
+}
