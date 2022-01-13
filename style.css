@@ -19,7 +19,6 @@ nav {
     grid-template-columns:10%, 1fr, 1fr, 10%;
     min-height: 10vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
 }
 
 
@@ -137,3 +136,7 @@ section {
     padding-left:100px;
 }
 
+.review {
+    background-color: lightyellow;
+    padding: 100px, 0px;
+}
