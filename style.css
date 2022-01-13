@@ -105,7 +105,6 @@ section {
 }
 
 
-
 .nav {
     display: flex;
     justify-content: space-around;
@@ -115,12 +114,25 @@ section {
     color: white;
 }
 
-.tuesday__taco {
-    height: 50%;
-    width:50%;
+.taco__description {
+    padding:150px;
+    align-items: center;
+}
+.tuesday__taco__div {
+    background-color:lightyellow;
 }
 
-.tthusday__burito{
+.tuesday__taco {
+    height: 50%;
+    width:40%;
+   padding-left: 50px;
+   padding-top:50px;
+   padding-bottom:50px;
+}
+
+.thusday__burito{
     height:30%;
     width:30%;
+    padding-left:100px;
 }
+
