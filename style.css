@@ -18,6 +18,7 @@ nav {
     display: grid;
     grid-template-columns:10%, 1fr, 1fr, 10%;
     min-height: 10vh;
+    font-family:fantasy
 }
 
 
@@ -82,11 +83,28 @@ section {
 }
 
 .footer {
-
     background-color:black;
     color: white;
-    padding: 150px;
+    display: flex;  
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: sans-serif;
+
 }
+
+.container__text{
+    color:grey;
+    padding-bottom:5px;
+}
+
+.container__header {
+    padding-bottom: 10px;
+}
+
+
 
 .nav {
     display: flex;
