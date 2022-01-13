@@ -18,7 +18,8 @@ nav {
     display: grid;
     grid-template-columns:10%, 1fr, 1fr, 10%;
     min-height: 10vh;
-    font-family:fantasy
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 
 
