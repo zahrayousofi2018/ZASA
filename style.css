@@ -115,15 +115,41 @@ section {
 }
 
 .taco__description {
-    padding:150px;
-    align-items: center;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.taco__description__text {
+    padding-top:10px;
+    margin: auto;
+}
+
+.weekly__special {
+
+   display: inline-block;
+   display: flex;
+   justify-content: center;
+}
+
+.weekly__special__text {
+    background-color:lightpink;
+    border:3px;
+    border-style: solid;
+    border-color: yellow;
+    padding-left: 5px;
+    padding-right:5px;
 
 }
-.tuesday__taco__div {
-    /* background: url("./Images/Taco.webp"; */
-    background-size: cover;
 
+
+.tuesday__taco__div {
+    background-size: cover;
     background-color:lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 
 }
 
@@ -149,3 +175,5 @@ section {
     background-color: lightyellow;
     padding: 100px, 0px;
 }
+
+
