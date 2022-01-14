@@ -149,7 +149,7 @@ section {
     background-color:lightyellow;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:space-evenly
 
 }
 
@@ -157,12 +157,19 @@ section {
     padding-top: 20px;
 }
 
+/* .weekly__offers {
+   display: flex;
+   justify-content: space-evenly;
+
+} */
+
 .tuesday__taco {
     height: 50%;
     width:40%;
    padding-left: 50px;
    padding-top:50px;
    padding-bottom:50px;
+   
 }
 
 .thusday__burito{
