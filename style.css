@@ -117,9 +117,18 @@ section {
 .taco__description {
     padding:150px;
     align-items: center;
+
 }
 .tuesday__taco__div {
+    /* background: url("./Images/Taco.webp"; */
+    background-size: cover;
+
     background-color:lightyellow;
+
+}
+
+.taco__text {
+    padding-top: 20px;
 }
 
 .tuesday__taco {
