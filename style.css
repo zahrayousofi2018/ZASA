@@ -127,7 +127,6 @@ section {
 }
 
 .weekly__special {
-
    display: inline-block;
    display: flex;
    justify-content: center;
@@ -143,18 +142,19 @@ section {
 
 }
 
-
 .tuesday__taco__div {
     background-size: cover;
     background-color:lightyellow;
     display: flex;
-    flex-direction: column;
-    justify-content:space-evenly
-
+    justify-content:space-evenly;
+    margin:20px;
 }
 
 .taco__text {
     padding-top: 20px;
+    margin-left: 50px;
+    margin-right:50px;
+    
 }
 
 /* .weekly__offers {
@@ -164,9 +164,8 @@ section {
 } */
 
 .tuesday__taco {
-    height: 50%;
-    width:40%;
-   padding-left: 50px;
+    height: 100%;
+    width:60%;
    padding-top:50px;
    padding-bottom:50px;
    
@@ -181,6 +180,12 @@ section {
 .review {
     background-color: lightyellow;
     padding: 100px, 0px;
+}
+
+.thursday__buritos__div {
+    display: flex;
+    justify-content:space-evenly;
+    margin:20px;
 }
 
 
